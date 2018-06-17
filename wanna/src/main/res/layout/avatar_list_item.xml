@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:layout_marginRight="5dp">
+
+    <com.wanna.client.ui.custom.ProfilePictureView
+        android:id="@+id/avatar_profile_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

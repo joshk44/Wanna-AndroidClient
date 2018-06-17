@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/degradadobackhelpscreen"
+    android:gravity="top"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/help_text"
+        android:textColor="#ff6a39"
+        android:text="Default Help"
+        android:textSize="23sp"
+        android:paddingTop="35dp"
+        android:paddingBottom="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:lines="2"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_below="@id/help_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

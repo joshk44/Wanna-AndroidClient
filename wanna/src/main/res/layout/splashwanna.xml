@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:background="@color/primary">
+
+    <!--
+         <Button 
+        android:id="@+id/play_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY" />
+    -->
+
+    <LinearLayout
+        android:id="@+id/animation"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <com.wanna.client.ui.custom.MyAnimationView
+            android:id="@+id/anim_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/spinner_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/animation"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

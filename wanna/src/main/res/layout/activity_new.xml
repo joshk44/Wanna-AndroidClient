@@ -1,0 +1,310 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanna.client.ui.NewActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/top_bar"
+        android:paddingRight="17dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:text="@string/create_activity"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/what_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="7dp"
+            android:text="@string/what_do_you_want"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#999999" />
+
+        <EditText
+            android:id="@+id/what_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view_background"
+            android:gravity="center_horizontal"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/hint_wanna"
+            android:maxLength="20"
+            android:textColor="#999999" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="10dp"
+                android:src="@drawable/piont" />
+
+            <TextView
+                android:id="@+id/where_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxLength="50"
+                android:text="@string/where"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#999999" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/where_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view_background"
+            android:gravity="center_horizontal"
+            android:inputType="textNoSuggestions"
+            android:textColor="#999999" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="10dp"
+                android:src="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/when_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/when"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#999999" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/when_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".90"
+                android:background="@drawable/text_view_background"
+                android:gravity="center_horizontal"
+                android:inputType="date"
+                android:padding="2dp"
+                android:text="asdkjasdkljas"
+                android:textColor="#999999"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/calendar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight=".10"
+                android:src="@drawable/calendar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="10dp"
+                android:src="@drawable/group" />
+
+            <TextView
+                android:id="@+id/how_many_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/how_many"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#999999" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/minus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/dot_gray"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="-"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/how_many_edit"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_view_background"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:textColor="#999999" />
+
+            <TextView
+                android:id="@+id/plus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/dot_gray"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center"
+                android:text="+"
+                android:textStyle="bold"
+
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="10dp"
+                android:src="@drawable/invite" />
+
+            <TextView
+                android:id="@+id/invite_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/invite"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#999999" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/selected_friends"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:overScrollMode="never"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/button_public"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_baseline"
+                android:text="@string/public_activity"
+                android:textColor="#999999"
+                android:theme="@style/Base.Widget.AppCompat.EditText" />
+
+            <Button
+                android:id="@+id/button_private"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_baseline"
+                android:text="@string/private_activity"
+                android:textColor="#999999" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:text="@string/create"
+        android:textColor="@color/primary"
+        android:textSize="18sp" />
+
+</RelativeLayout>

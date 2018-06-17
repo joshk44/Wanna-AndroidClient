@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="primary">#f47f35</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="accent">#FFEADC</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="background_screens">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="font_gray">#676767</color>
+    <color name="mdtp_accent_color">#f47f35</color>
+    <color name="mdtp_accent_color_dark">#E64A19</color>
+    <color name="top_bar">#F47F35</color>
+
+
+</resources>

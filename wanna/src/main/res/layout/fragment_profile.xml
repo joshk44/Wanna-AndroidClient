@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/profile_avatar_background"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <com.wanna.client.ui.custom.ProfilePictureView
+            android:id="@+id/my_profile_picture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"></com.wanna.client.ui.custom.ProfilePictureView>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/mdtp_white"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/buttons_profile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_activities"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_baseline_orange"
+                android:text="@string/activities"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+
+                android:theme="@style/Base.Widget.AppCompat.EditText" />
+
+            <Button
+                android:id="@+id/button_friends"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_baseline"
+                android:textSize="16sp"
+                android:text="@string/friends"
+                android:textColor="#999999" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttons_profile"
+            android:scaleType="fitXY"
+            android:src="@drawable/shadow_profile" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_activities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/buttons_profile"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_friends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/buttons_profile"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wanna</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="app_id">755262944516953</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_section1">Sección 1</string>
+    <string name="title_section2">Sección 2</string>
+    <string name="title_section3">Sección 3</string>
+    <string name="title_activity_wanna_main">WannaMainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home_activity2">HomeActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Acción de ejemplo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="create_activity">CREAR ACTIVIDAD</string>
+    <string name="what_do_you_want">Qué querés hacer?</string>
+    <string name="where">Dónde?</string>
+    <string name="when">Cuándo?</string>
+    <string name="how_many">Con cuántos?</string>
+    <string name="invite">Invitar</string>
+    <string name="public_activity">Publico</string>
+    <string name="private_activity">Privado</string>
+    <string name="create">CREAR</string>
+    <string name="activities">ACTIVIDADES</string>
+    <string name="friends">AMIGOS</string>
+    <string name="search">Buscar</string>
+    <string name="title_activity_details">Detalles de la actividad</string>
+    <string name="transition_activity_details">activityDetailsTransition</string>
+    <string name="not_now">NO AHORA</string>
+    <string name="join">UNIRME</string>
+    <string name="title_activity_freind_selector">FreindSelector</string>
+    <string name="Ok">Ok</string>
+    <string name="invite_friends">INVITAR AMIGOS</string>
+    <string name="wants_to_text">te invitó a</string>
+    <string name="you_created">Creaste</string>
+    <string name="Title">title</string>
+    <string name="oh_snap">Ups!</string>
+    <string name="general_error">Hubo un error.\nPor favor esperá un minuto e intentá nuevamente.</string>
+    <string name="oops">Oops</string>
+    <string name="cancel_activity_title">Cancelado</string>
+    <string name="server_error">El servidor no responde.\nPor favor intentá en un minuto o en dos...</string>
+    <string name="cancel_activity">No te arrepientas, en el momento lo querias.</string>
+    <string name="no_connection">Buuu! Falló al conectar</string>
+    <string name="super_title">Super!</string>
+    <string name="actualized">A fin de mantener el uso de la aplicación es necesaria una actualización. Pedimos disculpas!</string>
+    <string name="actualize_title">Actualización Necesaria</string>
+    <string name="joined">Te uniste exitosamente a una actividad. Chequea tu perfil para ver los detalles nuevamente.</string>
+    <string name="too_quiet">Esta muy silencioso aquí</string>
+    <string name="created_activity">Creaste exitosamente una actividad!</string>
+    <string name="hint_wanna">Salir a correr</string>
+    <string name="users">USUARIOS</string>
+    <string name="notifications">NOTIFICACIONES</string>
+    <string name="profile">PERFIL</string>
+    <string name="wants_to">Quiere </string>
+    <string name="today">Hoy a las </string>
+    <string name="tomorrow">Mañana a las </string>
+    <string name="next">El próximo </string>
+    <string name="available">Disponible</string>
+    <string name="not_available">No disponible</string>
+    <string name="full">Lleno</string>
+    <string name="action_loguout">Desloguearse</string>
+    <string name="comment">Comentarios</string>
+    <string name="txtLikeTimeSheet">Likes</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <string name="title_activity_comment">Comment Activity</string>
+
+    //menu
+    <string name="item_menu_edit">Editar Actividad</string>
+    <string name="item_menu_delete">Cancelar Actividad</string>
+    <string name="item_menu_comment">Comentarios</string>
+</resources>
